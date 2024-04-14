@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3eae3;
+  }
+  
+  .FlexContainer {
+    display: flex;
+    flex-wrap: wrap; /* Pozwala na opływanie na mniejszych ekranach */
+    justify-content: center;
+    align-items: stretch; /* Rozciąga dzieci, aby wypełniły dostępną przestrzeń */
+    max-width: 450px;
+    width: 90%; /* Zmniejsza szerokość na mniejszych ekranach */
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .FlexContainer div {
+    flex-basis: 50%; /* Daje obu divom po 50% szerokości */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+  }
+  
+
+
+  
+
+  
+ 
+  
+ 
+ 
+  
+ 
+ 
+  
+
+  
+ 
+ 
+ 
